@@ -1,0 +1,176 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .timeline {
+    width: calc(100% - 10vw);
+  }
+  .timeline-image img {
+    width: 150px;
+    height: 150px;
+  }
+  .timeline-bg {
+    width: 150px;
+    height: 150px;
+  }
+  .timeline-inverted {
+    margin: 7rem 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-heading {
+    padding-top: 5rem;
+  }
+  .btn-xl {
+    margin-top: 2rem;
+  }
+
+  .new-column .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .new-card ~ .justify-content-center {
+    width: 200px;
+  }
+  .timeline {
+    width: 100%;
+  }
+
+  .timeline-image img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .timeline-inverted {
+    margin: 5rem 0;
+  }
+  .timeline-bg {
+    width: 100px;
+    height: 100px;
+  }
+   .timeline-bg h4 {
+    font-size: 1rem;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .main-heading {
+    padding-top: 4rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .card {
+    margin-top: 2rem;
+  }
+  .new-card img {
+    height: fit-content;
+    width: 50%;
+    align-self: center;
+  }
+
+  .footer-margin {
+    margin: 1rem 0;
+  }
+
+  .timeline-simple {
+    flex-direction: row;
+  }
+
+  .timeline-panel{
+    width: 70%;
+  }
+
+  .timeline-image{
+  width: 30%;
+  }
+   
+
+  .timeline-simple .timeline-panel {
+    text-align: left;
+   
+  }
+
+ .timeline-bg{
+   width: 100px;
+    height: 100px;
+ }
+
+  .empty {
+    display: none;
+  }
+
+  .timeline::before {
+    left: 80px;
+    background-color: #e9ecef;
+  }
+  .last-timeline div {
+    margin: 0 !important;
+    margin-left: 33px !important;
+  }
+  .timeline-bg h4 {
+    font-size: 1rem;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-control {
+    width: calc(100% - 10vh);
+  }
+  .services-container{
+    width: 90%;
+  }
+
+  .timeline-image img{
+    width: 80px !important; 
+    height: 80px !important;
+  }
+
+  .timeline {
+    width: 90%;
+  }
+  .display-visible{
+    display: block
+  }
+   .timeline-panel{
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  .last-timeline div {
+    margin: 0 0 0 .75rem !important;
+  }
+
+  .timeline-image{
+  width: 40%;
+  }
+
+  .timeline::before{
+  left:15%;
+  }
+  
+  .timeline-bg{
+    width:30%;
+    height: 80px;
+  }
+
+   .timeline-bg h4 {
+    font-size: .875rem;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+
+}
