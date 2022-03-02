@@ -120,7 +120,7 @@ html {
 }
 
 .main-heading {
-  background: url("/assets/img/header-bg.jpg") no-repeat center;
+  background: url("./assets/img/header-bg.jpg") no-repeat center;
   text-align: center;
   color: #fff;
   background-size: cover;
